@@ -15,6 +15,10 @@ export const navigation = [
       {
         text: 'Display Data',
         path: '/display-data'
+      },
+      {
+        text: 'Pivot Demo',
+        path: '/pivot-demo'
       }
     ]
   }

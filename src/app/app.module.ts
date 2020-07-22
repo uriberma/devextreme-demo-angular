@@ -6,12 +6,12 @@ import { SideNavOuterToolbarModule, SideNavInnerToolbarModule, SingleCardModule 
 import { FooterModule, LoginFormModule } from './shared/components';
 import { AuthService, ScreenService, AppInfoService } from './shared/services';
 import { AppRoutingModule } from './app-routing.module';
-import { PivotGridComponent } from './pages/pivot-grid/pivot-grid.component';
+import  { PivotDemoService } from './pages/pivot-grid/pivot-demo.service';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PivotGridComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +22,7 @@ import { PivotGridComponent } from './pages/pivot-grid/pivot-grid.component';
     LoginFormModule,
     AppRoutingModule
   ],
-  providers: [AuthService, ScreenService, AppInfoService],
+  providers: [AuthService, ScreenService, AppInfoService, PivotDemoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

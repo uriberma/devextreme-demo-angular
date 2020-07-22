@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\pivot-grid"
+  ],
+  "SelectedNode": "\\src\\app\\pages\\pivot-grid\\pivot-grid.component.ts",
+  "PreviewInSolutionExplorer": false
+}
